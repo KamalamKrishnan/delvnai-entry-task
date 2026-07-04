@@ -39,7 +39,7 @@ A commit is like saving a checkpoint of our work with a message explaining what 
 
 A pull request is a request asking others to review our changes before they are added to the main project.
 
-4.*The reasons could be*
+4.*The reasons could be:*
 
 1.Slower reponse time ( High Latency )
 
