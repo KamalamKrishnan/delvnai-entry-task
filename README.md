@@ -40,6 +40,7 @@ A commit is like saving a checkpoint of our work with a message explaining what 
 A pull request is a request asking others to review our changes before they are added to the main project.
 
 4.The reasons could be:
+
     1.Slower reponse time ( High Latency )
     2.Multiple users ( high traffic ) using the the service at the same time than the server can handle ( IRCTC ticket booking scenarios )
     Slower response time can be checked in the design of the application by reducing the number of users to see how much the app can handle as these are related to the non-functional requirements of an application design
