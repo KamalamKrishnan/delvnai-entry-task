@@ -82,13 +82,18 @@ If I had more time, I would allow the user to provide the CSV file name as input
 # Part C
 
 The part A questions didn't seem any difficult to me, process, thread, join and commit concepts are the theoretical ones which I am good at and even relating all those to real life examples too ( as I understand them )
+
 For part B, I know what to do, how to read a csv file, and how to sort them using sorted() but the try-except blocks to handle errors was the suggestion I got from gpt as I was unsure about whether to use numpy error handlings like dropna, fillna ( bfill, ffill ),etc or not, then I got to know from gpt that why not to use pandas - csv is a built-in module in python unlike pandas which is a dataframe structure and henceforth its methods cant be used, and also it is not mentioned to clean the code as we don't know what should be the value there, but just to handle the error.
-key=lambda item: item[1], --- this line of code is also new to me, which I understood later as If we simply wrote: sorted(category_totals.items()) then Python would sort alphabetically:
+
+key=lambda item: item[1], --- this line of code is also new to me, which I understood later as 
+
+If we simply wrote: sorted(category_totals.items()) then Python would sort alphabetically:
 Books
 Food
 Shopping
 Software
 Travel
+
 But we want:
 Software 4199
 Travel 3500
