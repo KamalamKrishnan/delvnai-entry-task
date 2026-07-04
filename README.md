@@ -77,7 +77,7 @@ The program uses `try-except` blocks to handle errors gracefully.
 
 ## One Thing I Would Improve
 
-If I had more time, I would allow the user to provide the CSV file name as input and display the output in a more formatted table. Also, would have created a better sample file with errors to handle
+If I had more time, I would allow the user to provide the CSV file name as input and display the output in a more formatted table. Also, would have created a better sample file with different types of errors to handle
 
 # Part C
 
